@@ -25,6 +25,7 @@ jobs:
           dotnet-version: ${{ matrix.dotnet-version }}
       - name: Install dependencies
         run: dotnet restore
+        working-directory: SquareEquationSolver
       - name: Build
         run: dotnet build
       - name: Test
