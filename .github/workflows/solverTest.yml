@@ -28,5 +28,6 @@ jobs:
         working-directory: SquareEquationSolver
       - name: Build
         run: dotnet build
+        working-directory: SquareEquationSolver
       - name: Test
         run: dotnet test
