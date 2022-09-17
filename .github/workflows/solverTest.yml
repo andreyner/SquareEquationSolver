@@ -31,3 +31,4 @@ jobs:
         working-directory: SquareEquationSolver
       - name: Test
         run: dotnet test
+        working-directory: SquareEquationSolver.Testing
